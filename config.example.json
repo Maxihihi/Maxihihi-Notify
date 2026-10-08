@@ -1,0 +1,45 @@
+{
+  "discord": {
+    "token": "PASTE_YOUR_BOT_TOKEN_HERE",
+    "clientId": "PASTE_YOUR_APPLICATION_ID_HERE",
+    "guildId": ""
+  },
+  "notify": {
+    "default": {
+      "channelId": "",
+      "roleId": "",
+      "enabled": true,
+      "paused": false,
+      "embed": true,
+      "color": 5793266,
+      "footer": "Maxihihi Notify",
+      "prefix": "",
+      "cooldownSeconds": 5,
+      "maxPerHour": 60,
+      "quietHours": {
+        "enabled": false,
+        "start": "23:00",
+        "end": "07:00"
+      },
+      "allowedMentions": "role"
+    },
+    "guilds": {}
+  },
+  "providers": {
+    "youtubePollSeconds": 60,
+    "githubPollSeconds": 60,
+    "twitchPollSeconds": 30,
+    "tiktokPollSeconds": 120,
+    "github": {
+      "token": ""
+    },
+    "twitch": {
+      "clientId": "",
+      "clientSecret": ""
+    },
+    "tiktok": {
+      "feedUrl": ""
+    }
+  },
+  "sources": []
+}
